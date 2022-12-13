@@ -982,3 +982,38 @@ kubectl get pods -n test-ns
 kubectl exec javawebappdep-6f47487f58-bvpb5 -n test-ns -- cat /usr/local/tomcat/conf/tomcat-users.xml
 kubectl get cm -n test-ns
 kubectl describe cm javawebappconfig -n test-ns
+ll
+git
+git init 
+ll
+git add .
+cd metrics-server/
+ll
+cd ..
+ll
+git commit -m --help
+git commit -m FirstCommit
+git status
+git config 
+git config --global 
+git add
+git status
+git add .
+git status
+git commint -m "New Commit"
+git commit -m "New Commit"
+git push 
+git remote add samuelpolagani https://github.com/samuelpolagani/kubernetes-manifests.git
+git push 
+git push samuelpolagani https://github.com/samuelpolagani/kubernetes-manifests.git
+git push samuelpolagani
+git push master
+git branch
+git config --global user.name samuelpolagani
+git config --list
+git config --global user.email samuel.polagani@gmail.com
+git config --global list
+git config --global --list
+git commit -a -m "commit"
+git add .
+git commit -a -m "commit"
