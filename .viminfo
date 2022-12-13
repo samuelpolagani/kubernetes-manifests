@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q!
+|2,0,1670920443,,"q!"
 :wq!
 |2,0,1670839238,,"wq!"
-:q!
-|2,0,1670839161,,"q!"
 :se nu
 |2,0,1670837323,,"se nu"
 :set nu
@@ -34,71 +34,119 @@
 
 # Registers:
 ""1	LINE	0
-	      maxSurge: 50%
-|3,1,1,1,1,0,1670837303,"      maxSurge: 50%"
+	testns.yml
+|3,1,1,1,1,0,1670920466,"testns.yml"
 "2	LINE	0
-	      maxUnavailable: 50%
-|3,0,2,1,1,0,1670837302,"      maxUnavailable: 50%"
+	springbootmongo_pvc.yaml
+|3,0,2,1,1,0,1670920465,"springbootmongo_pvc.yaml"
 "3	LINE	0
-	    rollingUpdate:
-|3,0,3,1,1,0,1670837302,"    rollingUpdate:"
+	springbootmongo_nfs.yaml
+|3,0,3,1,1,0,1670920464,"springbootmongo_nfs.yaml"
 "4	LINE	0
-	    type: RollingUpdate
-|3,0,4,1,1,0,1670837301,"    type: RollingUpdate"
+	springbootmongo_hostpath.yaml
+|3,0,4,1,1,0,1670920462,"springbootmongo_hostpath.yaml"
 "5	LINE	0
-	  strategy:
-|3,0,5,1,1,0,1670837301,"  strategy:"
+	springbootmongo_configmap_secrets.yaml
+|3,0,5,1,1,0,1670920462,"springbootmongo_configmap_secrets.yaml"
 "6	LINE	0
-	  
-|3,0,6,1,1,0,1670836651,"  "
+	springappconfigs.yaml
+|3,0,6,1,1,0,1670920461,"springappconfigs.yaml"
 "7	LINE	0
-	  
-|3,0,7,1,1,0,1670836649,"  "
+	nginxdaemonset.yaml
+|3,0,7,1,1,0,1670920461,"nginxdaemonset.yaml"
 "8	LINE	0
-	  
-|3,0,8,1,1,0,1670836649,"  "
+	nginx.yaml
+|3,0,8,1,1,0,1670920460,"nginx.yaml"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1670836644,""
+	nfspv.yaml
+|3,0,9,1,1,0,1670920460,"nfspv.yaml"
 "-	CHAR	0
 	#
 |3,0,36,0,1,0,1670837150,"#"
 
 # File marks:
-'0  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,48,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
-'1  5  19  ~/javawebapp_configmap_filemapping.yaml
-|4,49,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
-'2  26  22  ~/javawebapp_configmap_filemapping.yaml
-|4,50,26,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
-'3  25  22  ~/javawebapp_configmap_filemapping.yaml
-|4,51,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
-'4  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,52,53,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
-'5  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,53,53,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
-'6  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,54,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
-'7  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,55,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
-'8  47  34  ~/javawebapp_configmap_filemapping.yaml
-|4,56,47,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
-'9  47  34  ~/javawebapp_configmap_filemapping.yaml
-|4,57,47,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
+'0  6  0  ~/.gitignore
+|4,48,6,0,1670920480,"~/.gitignore"
+'1  1  0  ~/.gitignore
+|4,49,1,0,1670920443,"~/.gitignore"
+'2  1  0  ~/.gitignore
+|4,50,1,0,1670920443,"~/.gitignore"
+'3  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,51,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
+'4  5  19  ~/javawebapp_configmap_filemapping.yaml
+|4,52,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
+'5  26  22  ~/javawebapp_configmap_filemapping.yaml
+|4,53,26,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
+'6  25  22  ~/javawebapp_configmap_filemapping.yaml
+|4,54,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
+'7  53  32  ~/javawebapp_configmap_filemapping.yaml
+|4,55,53,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
+'8  53  32  ~/javawebapp_configmap_filemapping.yaml
+|4,56,53,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
+'9  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,57,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
 
 # Jumplist (newest first):
+-'  6  0  ~/.gitignore
+|4,39,6,0,1670920480,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1670920444,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1670920443,"~/.gitignore"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
 -'  46  34  ~/javawebapp_configmap_filemapping.yaml
 |4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
 -'  5  19  ~/javawebapp_configmap_filemapping.yaml
 |4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
+-'  5  19  ~/javawebapp_configmap_filemapping.yaml
+|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
+-'  5  19  ~/javawebapp_configmap_filemapping.yaml
+|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
+-'  5  19  ~/javawebapp_configmap_filemapping.yaml
+|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
 -'  26  22  ~/javawebapp_configmap_filemapping.yaml
 |4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
+-'  26  22  ~/javawebapp_configmap_filemapping.yaml
+|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
+-'  26  22  ~/javawebapp_configmap_filemapping.yaml
+|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
+-'  26  22  ~/javawebapp_configmap_filemapping.yaml
+|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  22  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  22  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  22  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
 -'  25  22  ~/javawebapp_configmap_filemapping.yaml
 |4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
 -'  53  32  ~/javawebapp_configmap_filemapping.yaml
 |4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
 -'  52  32  ~/javawebapp_configmap_filemapping.yaml
 |4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  53  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  53  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  53  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
+-'  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
+-'  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
+-'  52  32  ~/javawebapp_configmap_filemapping.yaml
+|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
 -'  52  32  ~/javawebapp_configmap_filemapping.yaml
 |4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
 -'  47  34  ~/javawebapp_configmap_filemapping.yaml
@@ -107,8 +155,62 @@
 |4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
 -'  46  34  ~/javawebapp_configmap_filemapping.yaml
 |4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  47  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  47  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  47  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
 -'  46  34  ~/javawebapp_configmap_filemapping.yaml
 |4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
+-'  46  34  ~/javawebapp_configmap_filemapping.yaml
+|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
+-'  3  0  ~/javawebapp_configmap_filemapping.yaml
+|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
 -'  3  0  ~/javawebapp_configmap_filemapping.yaml
 |4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
 -'  3  0  ~/javawebapp_configmap_filemapping.yaml
@@ -129,6 +231,54 @@
 |4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
 -'  39  2  ~/javawebapp_configmap_filemapping.yaml
 |4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  40  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  40  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  40  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  39  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
+-'  25  2  ~/javawebapp_configmap_filemapping.yaml
+|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
 -'  25  2  ~/javawebapp_configmap_filemapping.yaml
 |4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
 -'  25  2  ~/javawebapp_configmap_filemapping.yaml
@@ -137,158 +287,15 @@
 |4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
 -'  25  2  ~/javawebapp_configmap_filemapping.yaml
 |4,39,25,2,1670837306,"~/javawebapp_configmap_filemapping.yaml"
--'  74  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,74,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  49  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,49,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  75  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,75,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  50  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,50,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  74  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,74,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  49  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,49,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  74  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,74,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  49  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,49,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  74  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,74,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  49  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,49,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  49  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,49,7,1670837295,"~/javawebapp_configmap_filemapping.yaml"
--'  79  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,79,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  54  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  80  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,80,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  55  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,55,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  79  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,79,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  54  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  79  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,79,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  54  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  79  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,79,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  54  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  54  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,7,1670837288,"~/javawebapp_configmap_filemapping.yaml"
--'  29  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  30  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,30,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  29  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  29  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  54  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  29  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  29  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,0,1670837190,"~/javawebapp_configmap_filemapping.yaml"
--'  29  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,0,1670837181,"~/javawebapp_configmap_filemapping.yaml"
--'  54  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,4,1670837126,"~/javawebapp_configmap_filemapping.yaml"
--'  54  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,54,4,1670837110,"~/javawebapp_configmap_filemapping.yaml"
--'  59  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,59,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  60  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,60,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  35  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,35,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  59  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,59,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  59  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,59,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  59  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,59,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  29  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837066,"~/javawebapp_configmap_filemapping.yaml"
--'  34  4  ~/javawebapp_configmap_filemapping.yaml
-|4,39,34,4,1670837008,"~/javawebapp_configmap_filemapping.yaml"
--'  29  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,2,1670837000,"~/javawebapp_configmap_filemapping.yaml"
--'  29  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,2,1670837000,"~/javawebapp_configmap_filemapping.yaml"
--'  29  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,29,2,1670836991,"~/javawebapp_configmap_filemapping.yaml"
--'  25  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,7,1670836929,"~/javawebapp_configmap_filemapping.yaml"
--'  25  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,7,1670836929,"~/javawebapp_configmap_filemapping.yaml"
--'  25  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,7,1670836929,"~/javawebapp_configmap_filemapping.yaml"
--'  25  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,7,1670836929,"~/javawebapp_configmap_filemapping.yaml"
--'  25  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,7,1670836929,"~/javawebapp_configmap_filemapping.yaml"
--'  25  7  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,7,1670836920,"~/javawebapp_configmap_filemapping.yaml"
--'  26  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  27  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,27,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  13  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,13,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  26  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  26  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  26  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836717,"~/javawebapp_configmap_filemapping.yaml"
--'  12  3  ~/javawebapp_configmap_filemapping.yaml
-|4,39,12,3,1670836709,"~/javawebapp_configmap_filemapping.yaml"
--'  28  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,28,2,1670836683,"~/javawebapp_configmap_filemapping.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1670920468	0
+	"	6	0
+	.	18	0
+	+	1	0
+	+	18	0
 
 > ~/javawebapp_configmap_filemapping.yaml
 	*	1670838364	0
