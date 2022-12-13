@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkinsdeployment
+  namespace: test-ns
+spec:
+  selector:
+    matchLabels:
+      app: jenkins
+  template:
+    metadata:
+      name: jenkinspod
+      labels:
+        app: jenkins
+    spec:
+      containers:
+      - name: myjenkins
+        image: jenkins/jenkins:lts
+        resources:
+          limits:
+            cpu: "450m"
+            memory: "256Mi"
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: jenkinsvol
+          mountPath: /var/jenkins_home
+      volumes:
+      - name: jenkinsvol    
+        persistentVolumeClaim:
+          claimName: jenkinspvc
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: jenkinspvc
+  namespace: test-ns
+spec:
+  resources:
+    requests:
+      storage: 10Gi
+  accessModes:
+  - ReadWriteOnce
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jenkinssvc
+  namespace: test-ns
+spec:
+  type: NodePort
+  selector:
+    app: jenkins
+  ports:
+  - port: 80
+    targetPort: 8080
+
+

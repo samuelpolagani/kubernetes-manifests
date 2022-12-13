@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nfspv
+spec:
+  nfs:
+    server: 172.31.1.159
+    path: /mnt/nfs_share
+  capacity:
+    storage: 15Gi
+  accessModes:
+  - ReadWriteMany
