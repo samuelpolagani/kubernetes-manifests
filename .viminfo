@@ -33,9 +33,9 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	testns.yml
-|3,1,1,1,1,0,1670920466,"testns.yml"
+|3,0,1,1,1,0,1670920466,"testns.yml"
 "2	LINE	0
 	springbootmongo_pvc.yaml
 |3,0,2,1,1,0,1670920465,"springbootmongo_pvc.yaml"
@@ -60,235 +60,289 @@
 "9	LINE	0
 	nfspv.yaml
 |3,0,9,1,1,0,1670920460,"nfspv.yaml"
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1670837150,"#"
+""-	CHAR	0
+	s
+|3,1,36,0,1,0,1671010460,"s"
 
 # File marks:
-'0  6  0  ~/.gitignore
-|4,48,6,0,1670920480,"~/.gitignore"
-'1  1  0  ~/.gitignore
-|4,49,1,0,1670920443,"~/.gitignore"
-'2  1  0  ~/.gitignore
-|4,50,1,0,1670920443,"~/.gitignore"
-'3  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,51,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
-'4  5  19  ~/javawebapp_configmap_filemapping.yaml
-|4,52,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
-'5  26  22  ~/javawebapp_configmap_filemapping.yaml
-|4,53,26,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
-'6  25  22  ~/javawebapp_configmap_filemapping.yaml
-|4,54,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
-'7  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,55,53,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
-'8  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,56,53,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
-'9  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,57,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
+'0  1  6  ~/limitrange.yaml
+|4,48,1,6,1671089985,"~/limitrange.yaml"
+'1  14  18  ~/limitrange.yaml
+|4,49,14,18,1671089841,"~/limitrange.yaml"
+'2  14  18  ~/limitrange.yaml
+|4,50,14,18,1671089841,"~/limitrange.yaml"
+'3  21  53  ~/javawebappdeployment.yaml
+|4,51,21,53,1671088780,"~/javawebappdeployment.yaml"
+'4  1  6  ~/resourcequota.yaml
+|4,52,1,6,1671088745,"~/resourcequota.yaml"
+'5  12  10  ~/resouecelimits.yaml
+|4,53,12,10,1671088376,"~/resouecelimits.yaml"
+'6  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,54,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+'7  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,55,34,31,1671010935,"~/mavenwebapp_liveness_readiness_probe.yaml"
+'8  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,56,34,31,1671010935,"~/mavenwebapp_liveness_readiness_probe.yaml"
+'9  7  12  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,57,7,12,1671010591,"~/mavenwebapp_liveness_readiness_probe.yaml"
 
 # Jumplist (newest first):
--'  6  0  ~/.gitignore
-|4,39,6,0,1670920480,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1670920444,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1670920443,"~/.gitignore"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670846256,"~/javawebapp_configmap_filemapping.yaml"
--'  5  19  ~/javawebapp_configmap_filemapping.yaml
-|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
--'  5  19  ~/javawebapp_configmap_filemapping.yaml
-|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
--'  5  19  ~/javawebapp_configmap_filemapping.yaml
-|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
--'  5  19  ~/javawebapp_configmap_filemapping.yaml
-|4,39,5,19,1670839238,"~/javawebapp_configmap_filemapping.yaml"
--'  26  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
--'  26  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
--'  26  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
--'  26  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,26,22,1670839165,"~/javawebapp_configmap_filemapping.yaml"
--'  25  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
--'  25  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
--'  25  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
--'  25  22  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,22,1670839161,"~/javawebapp_configmap_filemapping.yaml"
--'  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  53  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,53,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670839149,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
--'  52  32  ~/javawebapp_configmap_filemapping.yaml
-|4,39,52,32,1670838919,"~/javawebapp_configmap_filemapping.yaml"
--'  47  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  47  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  47  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  47  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,47,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838891,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
--'  46  34  ~/javawebapp_configmap_filemapping.yaml
-|4,39,46,34,1670838331,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  3  0  ~/javawebapp_configmap_filemapping.yaml
-|4,39,3,0,1670837844,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  40  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  40  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  40  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  40  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,40,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  39  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,39,2,1670837836,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837319,"~/javawebapp_configmap_filemapping.yaml"
--'  25  2  ~/javawebapp_configmap_filemapping.yaml
-|4,39,25,2,1670837306,"~/javawebapp_configmap_filemapping.yaml"
+-'  1  6  ~/limitrange.yaml
+|4,39,1,6,1671089985,"~/limitrange.yaml"
+-'  14  18  ~/limitrange.yaml
+|4,39,14,18,1671089977,"~/limitrange.yaml"
+-'  14  18  ~/limitrange.yaml
+|4,39,14,18,1671089841,"~/limitrange.yaml"
+-'  1  0  ~/limitrange.yaml
+|4,39,1,0,1671089834,"~/limitrange.yaml"
+-'  21  53  ~/javawebappdeployment.yaml
+|4,39,21,53,1671088780,"~/javawebappdeployment.yaml"
+-'  21  53  ~/javawebappdeployment.yaml
+|4,39,21,53,1671088780,"~/javawebappdeployment.yaml"
+-'  21  53  ~/javawebappdeployment.yaml
+|4,39,21,53,1671088780,"~/javawebappdeployment.yaml"
+-'  21  53  ~/javawebappdeployment.yaml
+|4,39,21,53,1671088780,"~/javawebappdeployment.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  1  6  ~/resourcequota.yaml
+|4,39,1,6,1671088745,"~/resourcequota.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  12  10  ~/resouecelimits.yaml
+|4,39,12,10,1671088376,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  1  0  ~/resouecelimits.yaml
+|4,39,1,0,1671088360,"~/resouecelimits.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  46  15  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,46,15,1671011065,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
+-'  34  31  ~/mavenwebapp_liveness_readiness_probe.yaml
+|4,39,34,31,1671011051,"~/mavenwebapp_liveness_readiness_probe.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/limitrange.yaml
+	*	1671089984	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	14	18
+	+	1	6
+
+> ~/javawebappdeployment.yaml
+	*	1671088772	0
+	"	21	53
+	^	21	54
+	.	21	53
+	+	6	4
+	+	4	21
+	+	5	19
+	+	11	0
+	+	10	10
+	+	36	19
+	+	31	15
+	+	20	7
+	+	9	17
+	+	21	53
+
+> ~/resourcequota.yaml
+	*	1671088744	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> ~/resouecelimits.yaml
+	*	1671088371	0
+	"	12	10
+	^	12	11
+	.	12	10
+	+	12	10
+
+> ~/mavenwebapp_liveness_readiness_probe.yaml
+	*	1671011064	0
+	"	46	15
+	^	46	16
+	.	46	15
+	+	52	0
+	+	5	19
+	+	23	15
+	+	30	16
+	+	23	15
+	+	7	12
+	+	44	19
+	+	21	23
+	+	34	31
+	+	46	15
 
 > ~/.gitignore
 	*	1670920468	0
@@ -578,22 +632,6 @@
 	+	14	6
 	+	13	5
 	+	26	53
-
-> ~/javawebappdeployment.yaml
-	*	1670146788	0
-	"	21	53
-	^	21	54
-	.	21	53
-	+	6	4
-	+	4	21
-	+	5	19
-	+	11	0
-	+	10	10
-	+	36	19
-	+	31	15
-	+	20	7
-	+	9	17
-	+	21	53
 
 > ~/nginxdaemonset.yaml
 	*	1670075647	0

@@ -1017,3 +1017,81 @@ git config --global --list
 git commit -a -m "commit"
 git add .
 git commit -a -m "commit"
+git congif --list
+git config --list
+git status
+git add .
+git commit -a -m "commit"
+git status
+git remote add origin https://github.com/samuelpolagani/kubernetes-manifests.git
+git remote -v
+git remote show origin
+git remote show samuelpolagani 
+git push samuelpolagani master
+ll
+ls -ltr
+ls -ltr | grep $1
+ls -ltr print($2)
+awk '{print $4}' ls
+ls -l | awk '{print $4}'
+ls -l | awk '{print $9}'
+ls -ltr | awk '{print $9}'
+ls -la | awk '{print $9}'
+ls -la | awk '{print $9}' > .gitignore
+vim .gitignore 
+git add .
+git status
+git commit -a -m "removed unnessary files"
+git push samuelpolagani master
+curl 172.31.5.225:8081
+docker
+vim mavenwebapp_liveness_readiness_probe.yaml
+kubectl get all -n test-ns
+kubectl delete all --all -n test-ns
+kubectl get all -n test-ns
+vim mavenwebapp_liveness_readiness_probe.yaml
+kubectl apply -f mavenwebapp_liveness_readiness_probe.yaml 
+vim mavenwebapp_liveness_readiness_probe.yaml
+kubectl apply -f mavenwebapp_liveness_readiness_probe.yaml 
+vim mavenwebapp_liveness_readiness_probe.yaml
+kubectl apply -f mavenwebapp_liveness_readiness_probe.yaml 
+kubectl get all -n test-ns
+vim mavenwebapp_liveness_readiness_probe.yaml
+kubectl apply -f mavenwebapp_liveness_readiness_probe.yaml 
+kubectl get all -n test-ns
+kubectl get ep -n test-ns
+kubectl get all -n test-ns
+kubectl describe pod mavenwebappdeployment-86b4c95d85-j66ct -n test-ns
+kubectl get all -n test-ns
+kubectl describe pod mavenwebappdeployment-86b4c95d85-j66ct -n test-ns
+kubectl delete all --all -n test-ns
+kubectl get all -n test-ns
+kubectl delete pod mongodbrs-8cd4v -n test-ns
+kubectl delete all --all -n test-ns
+kubectl get nodes
+vim mavenwebapp_liveness_readiness_probe.yaml 
+kubectl apply -f mavenwebapp_liveness_readiness_probe.yaml
+kubectl get all -n test-ns
+kubectl get get ep -n test-ns
+kubectl get ep -n test-ns
+kubectl get all -n test-ns
+vim mavenwebapp_liveness_readiness_probe.yaml 
+kubectl apply -f mavenwebapp_liveness_readiness_probe.yaml
+kubectl get all -n test-ns
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -- ls 
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -- ls -n test-ns
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -n test-ns -- ls 
+
+watch kubectl get ep -n test-ns
+ll
+git status
+cat mavenwebapp.yaml
+cat mavenwebappstatic.yaml
+kubectl get all -n test-ns
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -n test-ns -- ls webapp
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -n test-ns -- ls webapps
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -n test-ns -- rm webapps/maven-web-application.war
+kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -n test-ns -- ls webapps
+kubectl get all -n test-ns
+kubectl get pods -n test-ns
+cat mavenwebapp_liveness_readiness_probe.yaml 
