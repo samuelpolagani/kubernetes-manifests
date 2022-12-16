@@ -1095,3 +1095,109 @@ kubectl exec mavenwebappdeployment-859c86cfd6-hf7x6 -n test-ns -- ls webapps
 kubectl get all -n test-ns
 kubectl get pods -n test-ns
 cat mavenwebapp_liveness_readiness_probe.yaml 
+ll
+vim resouecelimits.yaml
+mv resouecelimits.yaml resourcequota.yaml
+kubectl get all -n test-ns
+kubectl delete all --all -n test-ns
+kubectl get all -n test-ns
+kubectl get nodes
+kubectl get quota -n test-n
+kubectl get quota -n test-ns
+kubectl apply -f resourcequota.yaml 
+vim resourcequota.yaml 
+kubectl apply -f resourcequota.yaml 
+kubectl get quota -n test-ns
+ll
+vim javawebappdeployment.yaml
+kubectl apply -f javawebappdeployment.yaml
+kubectl get all -n test-ns
+kubectl api-resouces | grep limit
+kubectl api-resources | grep limit
+kubectl api-resources
+ll
+vim limitrange.yaml
+kubectl get limits -n test-ns
+kubectl apply -f limitrange.yaml 
+vim limitrange.yaml
+kubectl apply -f limitrange.yaml 
+kubectl get limits -n test-ns
+kubectl describe limits testns-limitrange -n test-ns
+kubectl get all -n
+kubectl get all -n test-ns
+ll
+kubectl apply -f javawebappdeployment.yaml 
+kubectl get all -n test-ns
+kubectl events -n test-ns
+kubectl get events -n test-ns
+kubectl get all -n test-ns
+ls -ltr
+cat resourcequota.yaml
+cat limitrange.yaml
+git status
+git add .
+git commit -a -m "added limitrange, resourcequota & liveness, readiness probes"
+got push 
+git push samuelpolagani master
+git status
+kubectl api-resources | grep state
+kubectl get sc 
+kubectl get all -n test-ns
+kubectl get quota
+kubectl get quota -n test-ns
+kubect get limits 
+kubectl get limits 
+kubectl get limits -n test-ns
+kubectl get quota -n test-ns
+kubectl get limits -n test-ns
+kubectl delete quota testns-quota -n test-ns
+kubectl delete limits testns-limitrange -n test-ns
+kubectl get sc
+kubectl get pvc
+kubectl get pvc -n test-ns
+kubectl get pv
+kubectl get pv -n test-ns
+kubectl delete pv pvc-cd68c202-3c88-4a13-a1db-5e80e7db896d
+kubectl get pv -n test-ns
+vim springbootmongo_statefulset.yaml
+kubectl delete all --all -n test-ns
+kubectl get all -n test-ns
+kubectl apply -f springbootmongo_statefulset.yaml 
+vim springbootmongo_statefulset.yaml
+kubectl apply -f springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl describe mongodb-0 -n test-ns
+kubectl describe pod mongodb-0 -n test-ns
+vim springbootmongo_statefulset.yaml
+kubectl apply -f springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl describe pod mongodb-0 -n test-ns
+vim springbootmongo_statefulset.yaml
+kubectl apply -f springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl describe pod mongodb-0 -n test-ns
+kubectl get all -n test-ns
+kubectl describe pod mongodb-0 -n test-ns
+kubectl delete all -n test-ns
+kubectl delete all -n --all test-ns
+kubectl delete all --all -n test-ns
+kubectl apply -f springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl get pvc -n test-ns
+kubectl get pv -n test-ns
+kubectl exec -it mongodb-0 -- bash
+kubectl exec -it mongodb-0 -n test-ns -- bash
+vim springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl exec -it mongodb-1 -n test-ns -- /bin/bash
+kubectl get all -n test-ns
+kubectl exec -it mongodb-0 -n test-ns -- bash
+ls -ltr
+vim springbootmongo_statefulset.yaml
+kubectl delete all --all -n test-ns 
+kubectl get pvc -n test-n
+kubectl get pvc -n test-ns
+kubectl get all -n test-ns
+kubectl apply -f springbootmongo_statefulset.yaml
+kubectl get all -n test-ns
+kubectl exec -it mongod-0 -n test-ns -- bash
