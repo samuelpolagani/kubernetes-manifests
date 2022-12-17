@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671280076,,"wq!"
+|2,0,1671287959,,"wq!"
 :q1
 |2,0,1671279865,,"q1"
 :se nu
@@ -36,268 +36,280 @@
 
 # Registers:
 ""1	LINE	0
-	            podAffinityTerm:
-|3,1,1,1,1,0,1671279824,"            podAffinityTerm:"
+	            topologyKey: kubernetes.io/hostname
+|3,1,1,1,1,0,1671287098,"            topologyKey: kubernetes.io/hostname"
 "2	LINE	0
-	          - weight: 1
-|3,0,2,1,1,0,1671279705,"          - weight: 1"
+	                - javawebapp
+|3,0,2,1,1,0,1671287097,"                - javawebapp"
 "3	LINE	0
-	                # - WorkerOne
-|3,0,3,1,1,0,1671277401,"                # - WorkerOne"
+	                values:
+|3,0,3,1,1,0,1671287096,"                values:"
 "4	LINE	0
-	                #values:
-|3,0,4,1,1,0,1671277400,"                #values:"
+	                operator: In
+|3,0,4,1,1,0,1671287095,"                operator: In"
 "5	LINE	0
-	                # operator: In
-|3,0,5,1,1,0,1671277399,"                # operator: In"
+	              - key: app
+|3,0,5,1,1,0,1671287094,"              - key: app"
 "6	LINE	0
-	                # - key: "name"
-|3,0,6,1,1,0,1671277398,"                # - key: \"name\""
+	              matchExpressions:
+|3,0,6,1,1,0,1671287094,"              matchExpressions:"
 "7	LINE	0
-	                #- matchExpressions:
-|3,0,7,1,1,0,1671277398,"                #- matchExpressions:"
+	          - labelSelector:
+|3,0,7,1,1,0,1671287094,"          - labelSelector:"
 "8	LINE	0
-	                #nodeSelectorTerms:
-|3,0,8,1,1,0,1671277398,"                #nodeSelectorTerms:"
+	          requiredDuringSchedulingIgnoredDuringExecution:
+|3,0,8,1,1,0,1671287094,"          requiredDuringSchedulingIgnoredDuringExecution:"
 "9	LINE	0
-	                #requiredDuringSchedulingIgnoredDuringExecution:
-|3,0,9,1,1,0,1671277397,"                #requiredDuringSchedulingIgnoredDuringExecution:"
+	        podAntiAffinity:
+|3,0,9,1,1,0,1671287093,"        podAntiAffinity:"
 "-	CHAR	0
 	#
 |3,0,36,0,1,0,1671246084,"#"
 
 # File marks:
-'0  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,48,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
-'1  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,49,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
-'2  33  11  ~/javawebapp_podaffinity_required.yaml
-|4,50,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
-'3  17  20  ~/javawebapp_nodeaffinity.yaml
-|4,51,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
-'4  28  12  ~/javawebapp_podaffinity_required.yaml
-|4,52,28,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
-'5  29  12  ~/javawebapp_podaffinity_required.yaml
-|4,53,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
-'6  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,54,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
-'7  7  13  ~/nginxpod.yaml
-|4,55,7,13,1671279451,"~/nginxpod.yaml"
-'8  31  26  ~/javawebapp_podaffinity_preffered.yaml
-|4,56,31,26,1671279276,"~/javawebapp_podaffinity_preffered.yaml"
-'9  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,57,31,25,1671279229,"~/javawebapp_podaffinity_preffered.yaml"
+'0  46  25  ~/javawebapp_taints_tollerations.yaml
+|4,48,46,25,1671287959,"~/javawebapp_taints_tollerations.yaml"
+'1  38  46  ~/javawebapp_taints_tollerations.yaml
+|4,49,38,46,1671287828,"~/javawebapp_taints_tollerations.yaml"
+'2  38  46  ~/javawebapp_taints_tollerations.yaml
+|4,50,38,46,1671287828,"~/javawebapp_taints_tollerations.yaml"
+'3  42  25  ~/javawebapp_taints_tollerations.yaml
+|4,51,42,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
+'4  32  25  ~/javawebapp_taints_tollerations.yaml
+|4,52,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
+'5  42  25  ~/javawebapp_taints_tollerations.yaml
+|4,53,42,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
+'6  32  25  ~/javawebapp_taints_tollerations.yaml
+|4,54,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
+'7  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,55,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+'8  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,56,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+'9  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,57,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
 
 # Jumplist (newest first):
+-'  46  25  ~/javawebapp_taints_tollerations.yaml
+|4,39,46,25,1671287959,"~/javawebapp_taints_tollerations.yaml"
+-'  38  46  ~/javawebapp_taints_tollerations.yaml
+|4,39,38,46,1671287881,"~/javawebapp_taints_tollerations.yaml"
+-'  38  46  ~/javawebapp_taints_tollerations.yaml
+|4,39,38,46,1671287828,"~/javawebapp_taints_tollerations.yaml"
+-'  42  25  ~/javawebapp_taints_tollerations.yaml
+|4,39,42,25,1671287732,"~/javawebapp_taints_tollerations.yaml"
+-'  42  25  ~/javawebapp_taints_tollerations.yaml
+|4,39,42,25,1671287732,"~/javawebapp_taints_tollerations.yaml"
+-'  32  25  ~/javawebapp_taints_tollerations.yaml
+|4,39,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
+-'  32  25  ~/javawebapp_taints_tollerations.yaml
+|4,39,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
+-'  1  0  ~/javawebapp_taints_tollerations.yaml
+|4,39,1,0,1671287053,"~/javawebapp_taints_tollerations.yaml"
+-'  1  0  ~/javawebapp_taints_tollerations.yaml
+|4,39,1,0,1671287053,"~/javawebapp_taints_tollerations.yaml"
+-'  1  0  ~/javawebapp_taints_tollerations.yaml
+|4,39,1,0,1671287053,"~/javawebapp_taints_tollerations.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  8  12  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  32  27  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
 -'  25  14  ~/javawebapp_podantiaffinity_required.yaml
 |4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
 -'  1  0  ~/javawebapp_podantiaffinity_required.yaml
 |4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
 -'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
 |4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
 -'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
 |4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,1,0,1671280029,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,1,0,1671280029,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  33  11  ~/javawebapp_podaffinity_required.yaml
-|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
--'  33  11  ~/javawebapp_podaffinity_required.yaml
-|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
--'  33  11  ~/javawebapp_podaffinity_required.yaml
-|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
--'  33  11  ~/javawebapp_podaffinity_required.yaml
-|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
--'  17  20  ~/javawebapp_nodeaffinity.yaml
-|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
--'  17  20  ~/javawebapp_nodeaffinity.yaml
-|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
--'  17  20  ~/javawebapp_nodeaffinity.yaml
-|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
--'  17  20  ~/javawebapp_nodeaffinity.yaml
-|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
--'  28  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
--'  28  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
--'  28  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
--'  28  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
--'  29  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
--'  29  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
--'  29  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
--'  29  12  ~/javawebapp_podaffinity_required.yaml
-|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  1  0  ~/javawebapp_podaffinity_required.yaml
-|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  31  25  ~/javawebapp_podaffinity_preffered.yaml
-|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  7  13  ~/nginxpod.yaml
-|4,39,7,13,1671279451,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
--'  13  22  ~/nginxpod.yaml
-|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
 
 # History of marks within files (newest to oldest):
 
+> ~/javawebapp_taints_tollerations.yaml
+	*	1671287956	0
+	"	46	25
+	^	46	26
+	.	46	25
+	+	24	0
+	+	42	25
+	+	39	0
+	+	46	25
+
 > ~/javawebapp_podantiaffinity_required.yaml
-	*	1671280173	0
-	"	25	14
-	^	25	15
-	.	25	14
+	*	1671286853	0
+	"	8	12
+	^	8	13
+	.	8	12
 	+	25	14
+	+	32	27
+	+	8	12
 
 > ~/javawebapp_podantiaffinity_preffered.yaml
 	*	1671280069	0

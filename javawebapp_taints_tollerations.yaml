@@ -21,6 +21,11 @@ spec:
       labels:
         app: javawebapp
     spec:
+      containers:
+      - name: javawebapp
+        image: samuelpolagani98/java-web-application:5
+        ports:
+        - containerPort: 8080
       affinity:
         podAntiAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
@@ -31,11 +36,14 @@ spec:
                 values:
                 - javawebapp
             topologyKey: kubernetes.io/hostname
-      containers:
-      - name: javawebapp
-        image: samuelpolagani98/java-web-application:5
-        ports:
-        - containerPort: 8080
+      tolerations:
+      - key: node-role.kubernetes.io/control-plane
+        operator: "Exists"
+        effect: NoSchedule
+      - key: node
+        operator: Equal
+        value: HatePods
+        effect: NoSchedule
 ---
 apiVersion: v1
 kind: Service
