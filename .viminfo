@@ -12,11 +12,13 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671255337,,"wq!"
+|2,0,1671280076,,"wq!"
+:q1
+|2,0,1671279865,,"q1"
+:se nu
+|2,0,1671278125,,"se nu"
 :q!
 |2,0,1670920443,,"q!"
-:se nu
-|2,0,1670837323,,"se nu"
 :set nu
 |2,0,1670075569,,"set nu"
 :ne
@@ -33,266 +35,295 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	
-|3,0,1,1,1,0,1671197863,""
+""1	LINE	0
+	            podAffinityTerm:
+|3,1,1,1,1,0,1671279824,"            podAffinityTerm:"
 "2	LINE	0
-	---
-|3,0,2,1,1,0,1671197769,"---"
+	          - weight: 1
+|3,0,2,1,1,0,1671279705,"          - weight: 1"
 "3	LINE	0
-	        averageUtilization: 40
-|3,0,3,1,1,0,1671197768,"        averageUtilization: 40"
+	                # - WorkerOne
+|3,0,3,1,1,0,1671277401,"                # - WorkerOne"
 "4	LINE	0
-	        type: Utilization
-|3,0,4,1,1,0,1671197767,"        type: Utilization"
+	                #values:
+|3,0,4,1,1,0,1671277400,"                #values:"
 "5	LINE	0
-	      target:
-|3,0,5,1,1,0,1671197767,"      target:"
+	                # operator: In
+|3,0,5,1,1,0,1671277399,"                # operator: In"
 "6	LINE	0
-	      name: memory
-|3,0,6,1,1,0,1671197766,"      name: memory"
+	                # - key: "name"
+|3,0,6,1,1,0,1671277398,"                # - key: \"name\""
 "7	LINE	0
-	    resource:
-|3,0,7,1,1,0,1671197766,"    resource:"
+	                #- matchExpressions:
+|3,0,7,1,1,0,1671277398,"                #- matchExpressions:"
 "8	LINE	0
-	  - type: Resource
-|3,0,8,1,1,0,1671197766,"  - type: Resource"
+	                #nodeSelectorTerms:
+|3,0,8,1,1,0,1671277398,"                #nodeSelectorTerms:"
 "9	LINE	0
-	        averageUtilization: 40
-|3,0,9,1,1,0,1671197766,"        averageUtilization: 40"
-""-	CHAR	0
+	                #requiredDuringSchedulingIgnoredDuringExecution:
+|3,0,9,1,1,0,1671277397,"                #requiredDuringSchedulingIgnoredDuringExecution:"
+"-	CHAR	0
 	#
-|3,1,36,0,1,0,1671246084,"#"
+|3,0,36,0,1,0,1671246084,"#"
 
 # File marks:
-'0  34  20  ~/javawebapp_nodeaffinity.yaml
-|4,48,34,20,1671255337,"~/javawebapp_nodeaffinity.yaml"
-'1  33  41  ~/javawebapp_nodeaffinity.yaml
-|4,49,33,41,1671255307,"~/javawebapp_nodeaffinity.yaml"
-'2  33  41  ~/javawebapp_nodeaffinity.yaml
-|4,50,33,41,1671255307,"~/javawebapp_nodeaffinity.yaml"
-'3  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,51,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
-'4  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,52,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
-'5  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,53,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
-'6  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,54,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
-'7  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,55,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
-'8  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,56,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
-'9  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,57,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
+'0  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,48,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+'1  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,49,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+'2  33  11  ~/javawebapp_podaffinity_required.yaml
+|4,50,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
+'3  17  20  ~/javawebapp_nodeaffinity.yaml
+|4,51,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
+'4  28  12  ~/javawebapp_podaffinity_required.yaml
+|4,52,28,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
+'5  29  12  ~/javawebapp_podaffinity_required.yaml
+|4,53,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
+'6  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,54,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+'7  7  13  ~/nginxpod.yaml
+|4,55,7,13,1671279451,"~/nginxpod.yaml"
+'8  31  26  ~/javawebapp_podaffinity_preffered.yaml
+|4,56,31,26,1671279276,"~/javawebapp_podaffinity_preffered.yaml"
+'9  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,57,31,25,1671279229,"~/javawebapp_podaffinity_preffered.yaml"
 
 # Jumplist (newest first):
--'  34  20  ~/javawebapp_nodeaffinity.yaml
-|4,39,34,20,1671255337,"~/javawebapp_nodeaffinity.yaml"
--'  33  41  ~/javawebapp_nodeaffinity.yaml
-|4,39,33,41,1671255322,"~/javawebapp_nodeaffinity.yaml"
--'  33  41  ~/javawebapp_nodeaffinity.yaml
-|4,39,33,41,1671255307,"~/javawebapp_nodeaffinity.yaml"
--'  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,39,40,28,1671255267,"~/javawebapp_nodeaffinity.yaml"
--'  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,39,40,28,1671255267,"~/javawebapp_nodeaffinity.yaml"
--'  40  28  ~/javawebapp_nodeaffinity.yaml
-|4,39,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
--'  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,39,29,25,1671254997,"~/javawebapp_nodeaffinity.yaml"
--'  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,39,29,25,1671254997,"~/javawebapp_nodeaffinity.yaml"
--'  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,39,29,25,1671254997,"~/javawebapp_nodeaffinity.yaml"
--'  29  25  ~/javawebapp_nodeaffinity.yaml
-|4,39,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
--'  32  24  ~/javawebapp_nodeaffinity.yaml
-|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
--'  32  24  ~/javawebapp_nodeaffinity.yaml
-|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
--'  32  24  ~/javawebapp_nodeaffinity.yaml
-|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
--'  32  24  ~/javawebapp_nodeaffinity.yaml
-|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
--'  32  24  ~/javawebapp_nodeaffinity.yaml
-|4,39,32,24,1671254806,"~/javawebapp_nodeaffinity.yaml"
--'  29  13  ~/javawebapp_nodeaffinity.yaml
-|4,39,29,13,1671254674,"~/javawebapp_nodeaffinity.yaml"
--'  29  14  ~/javawebapp_nodeaffinity.yaml
-|4,39,29,14,1671254103,"~/javawebapp_nodeaffinity.yaml"
--'  1  0  ~/javawebapp_nodeaffinity.yaml
-|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
--'  1  0  ~/javawebapp_nodeaffinity.yaml
-|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
--'  1  0  ~/javawebapp_nodeaffinity.yaml
-|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
--'  1  0  ~/javawebapp_nodeaffinity.yaml
-|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
--'  1  0  ~/javawebapp_nodeaffinity.yaml
-|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
--'  1  0  ~/javawebapp_nodeaffinity.yaml
-|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  33  6  ~/mavenwebapp_nodeselector.yaml
-|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
--'  44  11  ~/mavenwebapp_nodeselector.yaml
-|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  25  14  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_required.yaml
+|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,1,0,1671280029,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  1  0  ~/javawebapp_podantiaffinity_preffered.yaml
+|4,39,1,0,1671280029,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  33  11  ~/javawebapp_podaffinity_required.yaml
+|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
+-'  33  11  ~/javawebapp_podaffinity_required.yaml
+|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
+-'  33  11  ~/javawebapp_podaffinity_required.yaml
+|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
+-'  33  11  ~/javawebapp_podaffinity_required.yaml
+|4,39,33,11,1671279925,"~/javawebapp_podaffinity_required.yaml"
+-'  17  20  ~/javawebapp_nodeaffinity.yaml
+|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
+-'  17  20  ~/javawebapp_nodeaffinity.yaml
+|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
+-'  17  20  ~/javawebapp_nodeaffinity.yaml
+|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
+-'  17  20  ~/javawebapp_nodeaffinity.yaml
+|4,39,17,20,1671279865,"~/javawebapp_nodeaffinity.yaml"
+-'  28  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
+-'  28  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
+-'  28  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
+-'  28  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,28,12,1671279773,"~/javawebapp_podaffinity_required.yaml"
+-'  29  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
+-'  29  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
+-'  29  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
+-'  29  12  ~/javawebapp_podaffinity_required.yaml
+|4,39,29,12,1671279733,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  1  0  ~/javawebapp_podaffinity_required.yaml
+|4,39,1,0,1671279688,"~/javawebapp_podaffinity_required.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  31  25  ~/javawebapp_podaffinity_preffered.yaml
+|4,39,31,25,1671279464,"~/javawebapp_podaffinity_preffered.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  7  13  ~/nginxpod.yaml
+|4,39,7,13,1671279451,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
+-'  13  22  ~/nginxpod.yaml
+|4,39,13,22,1671279385,"~/nginxpod.yaml"
 
 # History of marks within files (newest to oldest):
 
+> ~/javawebapp_podantiaffinity_required.yaml
+	*	1671280173	0
+	"	25	14
+	^	25	15
+	.	25	14
+	+	25	14
+
+> ~/javawebapp_podantiaffinity_preffered.yaml
+	*	1671280069	0
+	"	35	14
+	^	35	15
+	.	25	14
+	+	25	14
+
+> ~/javawebapp_podaffinity_required.yaml
+	*	1671279923	0
+	"	33	11
+	^	33	12
+	.	27	11
+	+	26	17
+	+	27	12
+	+	28	12
+	+	29	12
+	+	30	12
+	+	31	12
+	+	32	12
+	+	33	12
+	+	27	11
+
 > ~/javawebapp_nodeaffinity.yaml
-	*	1671255334	0
-	"	34	20
+	*	1671279863	0
+	"	17	20
 	^	34	21
 	.	34	20
 	+	13	6
@@ -317,6 +348,38 @@
 	+	40	28
 	+	33	41
 	+	34	20
+
+> ~/javawebapp_podaffinity_preffered.yaml
+	*	1671279463	0
+	"	31	25
+	^	31	26
+	.	31	25
+	+	26	0
+	+	25	11
+	+	31	25
+	+	34	24
+	+	31	14
+	+	32	14
+	+	33	14
+	+	34	14
+	+	29	13
+	+	30	15
+	+	31	15
+	+	32	16
+	+	33	16
+	+	34	17
+	+	28	27
+	+	29	26
+	+	35	48
+	+	31	25
+
+> ~/nginxpod.yaml
+	*	1671279448	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	13	22
+	+	7	13
 
 > ~/mavenwebapp_nodeselector.yaml
 	*	1671198210	0

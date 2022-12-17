@@ -1294,3 +1294,42 @@ ls -ltr
 cp javawebappdeprollingupdate.yaml 
 cp javawebappdeprollingupdate.yaml javawebapp_nodeaffinity.yaml
 vim javawebapp_nodeaffinity.yaml
+ls -ltr
+vim javawebapp_nodeaffinity.yaml
+kubectl get all -n test-ns
+kubectl delete all -n test-ns
+kubectl delete all --all -n test-ns
+kubectl get all -n test-ns
+kubectl apply -f javawebapp_nodeaffinity.yaml
+kubectl get all -n test-ns
+kubectl describe pod javawebappdep-6d4796864b-9cbwv -n test-ns
+vim javawebapp_nodeaffinity.yaml 
+kubectl apply -f javawebapp_nodeaffinity.yaml
+kubectl get pods -n test-ns
+kubectl get pods -n test-ns -o wide
+vim javawebapp_nodeaffinity.yaml
+kubectl apply -f javawebapp_nodeaffinity.yaml
+vim javawebapp_nodeaffinity.yaml
+kubectl apply -f javawebapp_nodeaffinity.yaml
+vim javawebapp_nodeaffinity.yaml
+kubectl apply -f javawebapp_nodeaffinity.yaml
+kubectl get pods -n test-ns -o wide
+git status
+git add .
+git commint -a -m "Node Affinity Files"
+git push samuelpolagani master
+git status
+git push samuelpolagani master 
+git status
+git config 
+git config --global 
+git config --global --get
+git remote show samuelpolagani 
+history 
+git push origin master
+git push samuelpolagani  master
+touch test.txt
+git status
+git add .
+git commit -a -m "data"
+git push samuelpolagani  master
