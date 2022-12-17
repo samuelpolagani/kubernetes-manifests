@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671188991,,"wq!"
+|2,0,1671255337,,"wq!"
 :q!
 |2,0,1670920443,,"q!"
 :se nu
@@ -33,262 +33,336 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	              secretKeyRef:
-|3,1,1,1,1,0,1671188707,"              secretKeyRef:"
+"1	LINE	0
+	
+|3,0,1,1,1,0,1671197863,""
 "2	LINE	0
-	                name: springappsecret
-|3,0,2,1,1,0,1671188706,"                name: springappsecret"
+	---
+|3,0,2,1,1,0,1671197769,"---"
 "3	LINE	0
-	                key: mongodbpassword
-|3,0,3,1,1,0,1671188705,"                key: mongodbpassword"
+	        averageUtilization: 40
+|3,0,3,1,1,0,1671197768,"        averageUtilization: 40"
 "4	LINE	0
-	              configMapKeyRef:
-|3,0,4,1,1,0,1671188689,"              configMapKeyRef:"
-"5	LINE	0
-	                name: springappconfig
-|3,0,5,1,1,0,1671188685,"                name: springappconfig"
-"6	LINE	0
-	                key: mongodbusername
-|3,0,6,1,1,0,1671188683,"                key: mongodbusername"
-"7	LINE	0
-	        averageUtilization: 90
-|3,0,7,1,1,0,1671188383,"        averageUtilization: 90"
-"8	LINE	0
 	        type: Utilization
-|3,0,8,1,1,0,1671188382,"        type: Utilization"
-"9	LINE	0
+|3,0,4,1,1,0,1671197767,"        type: Utilization"
+"5	LINE	0
 	      target:
-|3,0,9,1,1,0,1671188380,"      target:"
-"-	CHAR	0
-	b
-|3,0,36,0,1,0,1671174742,"b"
+|3,0,5,1,1,0,1671197767,"      target:"
+"6	LINE	0
+	      name: memory
+|3,0,6,1,1,0,1671197766,"      name: memory"
+"7	LINE	0
+	    resource:
+|3,0,7,1,1,0,1671197766,"    resource:"
+"8	LINE	0
+	  - type: Resource
+|3,0,8,1,1,0,1671197766,"  - type: Resource"
+"9	LINE	0
+	        averageUtilization: 40
+|3,0,9,1,1,0,1671197766,"        averageUtilization: 40"
+""-	CHAR	0
+	#
+|3,1,36,0,1,0,1671246084,"#"
 
 # File marks:
-'0  39  32  ~/springbootmongo_statefulset.yaml
-|4,48,39,32,1671188991,"~/springbootmongo_statefulset.yaml"
-'1  47  33  ~/springbootmongo_statefulset.yaml
-|4,49,47,33,1671188740,"~/springbootmongo_statefulset.yaml"
-'2  45  33  ~/springbootmongo_statefulset.yaml
-|4,50,45,33,1671188740,"~/springbootmongo_statefulset.yaml"
-'3  40  25  ~/springbootmongo_statefulset.yaml
-|4,51,40,25,1671188630,"~/springbootmongo_statefulset.yaml"
-'4  40  25  ~/springbootmongo_statefulset.yaml
-|4,52,40,25,1671188630,"~/springbootmongo_statefulset.yaml"
-'5  38  25  ~/springbootmongo_statefulset.yaml
-|4,53,38,25,1671188630,"~/springbootmongo_statefulset.yaml"
-'6  38  25  ~/springbootmongo_statefulset.yaml
-|4,54,38,25,1671188630,"~/springbootmongo_statefulset.yaml"
-'7  95  23  ~/springbootmongo_statefulset.yaml
-|4,55,95,23,1671184257,"~/springbootmongo_statefulset.yaml"
-'8  34  23  ~/springbootmongo_statefulset.yaml
-|4,56,34,23,1671184257,"~/springbootmongo_statefulset.yaml"
-'9  101  23  ~/springbootmongo_statefulset.yaml
-|4,57,101,23,1671184257,"~/springbootmongo_statefulset.yaml"
+'0  34  20  ~/javawebapp_nodeaffinity.yaml
+|4,48,34,20,1671255337,"~/javawebapp_nodeaffinity.yaml"
+'1  33  41  ~/javawebapp_nodeaffinity.yaml
+|4,49,33,41,1671255307,"~/javawebapp_nodeaffinity.yaml"
+'2  33  41  ~/javawebapp_nodeaffinity.yaml
+|4,50,33,41,1671255307,"~/javawebapp_nodeaffinity.yaml"
+'3  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,51,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
+'4  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,52,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
+'5  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,53,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
+'6  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,54,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
+'7  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,55,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
+'8  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,56,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
+'9  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,57,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
 
 # Jumplist (newest first):
--'  39  32  ~/springbootmongo_statefulset.yaml
-|4,39,39,32,1671188991,"~/springbootmongo_statefulset.yaml"
--'  47  33  ~/springbootmongo_statefulset.yaml
-|4,39,47,33,1671188905,"~/springbootmongo_statefulset.yaml"
--'  45  33  ~/springbootmongo_statefulset.yaml
-|4,39,45,33,1671188740,"~/springbootmongo_statefulset.yaml"
--'  40  25  ~/springbootmongo_statefulset.yaml
-|4,39,40,25,1671188635,"~/springbootmongo_statefulset.yaml"
--'  38  25  ~/springbootmongo_statefulset.yaml
-|4,39,38,25,1671188635,"~/springbootmongo_statefulset.yaml"
--'  38  25  ~/springbootmongo_statefulset.yaml
-|4,39,38,25,1671188630,"~/springbootmongo_statefulset.yaml"
--'  95  23  ~/springbootmongo_statefulset.yaml
-|4,39,95,23,1671188321,"~/springbootmongo_statefulset.yaml"
--'  101  23  ~/springbootmongo_statefulset.yaml
-|4,39,101,23,1671188321,"~/springbootmongo_statefulset.yaml"
--'  93  23  ~/springbootmongo_statefulset.yaml
-|4,39,93,23,1671188321,"~/springbootmongo_statefulset.yaml"
--'  99  23  ~/springbootmongo_statefulset.yaml
-|4,39,99,23,1671188321,"~/springbootmongo_statefulset.yaml"
--'  34  23  ~/springbootmongo_statefulset.yaml
-|4,39,34,23,1671184257,"~/springbootmongo_statefulset.yaml"
--'  33  23  ~/springbootmongo_statefulset.yaml
-|4,39,33,23,1671184257,"~/springbootmongo_statefulset.yaml"
--'  33  23  ~/springbootmongo_statefulset.yaml
-|4,39,33,23,1671184257,"~/springbootmongo_statefulset.yaml"
--'  82  21  ~/springbootmongo_statefulset.yaml
-|4,39,82,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  20  21  ~/springbootmongo_statefulset.yaml
-|4,39,20,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  88  21  ~/springbootmongo_statefulset.yaml
-|4,39,88,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  80  21  ~/springbootmongo_statefulset.yaml
-|4,39,80,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  20  21  ~/springbootmongo_statefulset.yaml
-|4,39,20,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  86  21  ~/springbootmongo_statefulset.yaml
-|4,39,86,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  20  21  ~/springbootmongo_statefulset.yaml
-|4,39,20,21,1671184244,"~/springbootmongo_statefulset.yaml"
--'  20  21  ~/springbootmongo_statefulset.yaml
-|4,39,20,21,1671182519,"~/springbootmongo_statefulset.yaml"
--'  121  13  ~/springbootmongo_statefulset.yaml
-|4,39,121,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  55  13  ~/springbootmongo_statefulset.yaml
-|4,39,55,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  127  13  ~/springbootmongo_statefulset.yaml
-|4,39,127,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  61  13  ~/springbootmongo_statefulset.yaml
-|4,39,61,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  119  13  ~/springbootmongo_statefulset.yaml
-|4,39,119,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  125  13  ~/springbootmongo_statefulset.yaml
-|4,39,125,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  59  13  ~/springbootmongo_statefulset.yaml
-|4,39,59,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  59  13  ~/springbootmongo_statefulset.yaml
-|4,39,59,13,1671181791,"~/springbootmongo_statefulset.yaml"
--'  59  13  ~/springbootmongo_statefulset.yaml
-|4,39,59,13,1671178933,"~/springbootmongo_statefulset.yaml"
--'  87  19  ~/springbootmongo_statefulset.yaml
-|4,39,87,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  25  19  ~/springbootmongo_statefulset.yaml
-|4,39,25,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  93  19  ~/springbootmongo_statefulset.yaml
-|4,39,93,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  85  19  ~/springbootmongo_statefulset.yaml
-|4,39,85,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  25  19  ~/springbootmongo_statefulset.yaml
-|4,39,25,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  91  19  ~/springbootmongo_statefulset.yaml
-|4,39,91,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  25  19  ~/springbootmongo_statefulset.yaml
-|4,39,25,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  25  19  ~/springbootmongo_statefulset.yaml
-|4,39,25,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  25  19  ~/springbootmongo_statefulset.yaml
-|4,39,25,19,1671178760,"~/springbootmongo_statefulset.yaml"
--'  25  19  ~/springbootmongo_statefulset.yaml
-|4,39,25,19,1671175796,"~/springbootmongo_statefulset.yaml"
--'  84  21  ~/springbootmongo_statefulset.yaml
-|4,39,84,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  90  21  ~/springbootmongo_statefulset.yaml
-|4,39,90,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  82  21  ~/springbootmongo_statefulset.yaml
-|4,39,82,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  88  21  ~/springbootmongo_statefulset.yaml
-|4,39,88,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671175640,"~/springbootmongo_statefulset.yaml"
--'  22  21  ~/springbootmongo_statefulset.yaml
-|4,39,22,21,1671174744,"~/springbootmongo_statefulset.yaml"
--'  25  24  ~/springbootmongo_statefulset.yaml
-|4,39,25,24,1671174738,"~/springbootmongo_statefulset.yaml"
--'  25  24  ~/springbootmongo_statefulset.yaml
-|4,39,25,24,1671174682,"~/springbootmongo_statefulset.yaml"
--'  116  13  ~/springbootmongo_statefulset.yaml
-|4,39,116,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  50  13  ~/springbootmongo_statefulset.yaml
-|4,39,50,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  122  13  ~/springbootmongo_statefulset.yaml
-|4,39,122,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  56  13  ~/springbootmongo_statefulset.yaml
-|4,39,56,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  114  13  ~/springbootmongo_statefulset.yaml
-|4,39,114,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  48  13  ~/springbootmongo_statefulset.yaml
-|4,39,48,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  120  13  ~/springbootmongo_statefulset.yaml
-|4,39,120,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  54  13  ~/springbootmongo_statefulset.yaml
-|4,39,54,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  54  13  ~/springbootmongo_statefulset.yaml
-|4,39,54,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  54  13  ~/springbootmongo_statefulset.yaml
-|4,39,54,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  54  13  ~/springbootmongo_statefulset.yaml
-|4,39,54,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  54  13  ~/springbootmongo_statefulset.yaml
-|4,39,54,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  54  13  ~/springbootmongo_statefulset.yaml
-|4,39,54,13,1671174629,"~/springbootmongo_statefulset.yaml"
--'  115  13  ~/springbootmongo_statefulset.yaml
-|4,39,115,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  49  13  ~/springbootmongo_statefulset.yaml
-|4,39,49,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  113  13  ~/springbootmongo_statefulset.yaml
-|4,39,113,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  47  13  ~/springbootmongo_statefulset.yaml
-|4,39,47,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  119  13  ~/springbootmongo_statefulset.yaml
-|4,39,119,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  53  13  ~/springbootmongo_statefulset.yaml
-|4,39,53,13,1671174545,"~/springbootmongo_statefulset.yaml"
--'  67  19  ~/springbootmongo_statefulset.yaml
-|4,39,67,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  73  19  ~/springbootmongo_statefulset.yaml
-|4,39,73,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  65  19  ~/springbootmongo_statefulset.yaml
-|4,39,65,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  71  19  ~/springbootmongo_statefulset.yaml
-|4,39,71,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174335,"~/springbootmongo_statefulset.yaml"
--'  5  19  ~/springbootmongo_statefulset.yaml
-|4,39,5,19,1671174270,"~/springbootmongo_statefulset.yaml"
--'  120  6  ~/springbootmongo_statefulset.yaml
-|4,39,120,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  54  6  ~/springbootmongo_statefulset.yaml
-|4,39,54,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  126  6  ~/springbootmongo_statefulset.yaml
-|4,39,126,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  60  6  ~/springbootmongo_statefulset.yaml
-|4,39,60,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  118  6  ~/springbootmongo_statefulset.yaml
-|4,39,118,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  52  6  ~/springbootmongo_statefulset.yaml
-|4,39,52,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  124  6  ~/springbootmongo_statefulset.yaml
-|4,39,124,6,1671174241,"~/springbootmongo_statefulset.yaml"
--'  58  6  ~/springbootmongo_statefulset.yaml
-|4,39,58,6,1671174241,"~/springbootmongo_statefulset.yaml"
+-'  34  20  ~/javawebapp_nodeaffinity.yaml
+|4,39,34,20,1671255337,"~/javawebapp_nodeaffinity.yaml"
+-'  33  41  ~/javawebapp_nodeaffinity.yaml
+|4,39,33,41,1671255322,"~/javawebapp_nodeaffinity.yaml"
+-'  33  41  ~/javawebapp_nodeaffinity.yaml
+|4,39,33,41,1671255307,"~/javawebapp_nodeaffinity.yaml"
+-'  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,39,40,28,1671255267,"~/javawebapp_nodeaffinity.yaml"
+-'  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,39,40,28,1671255267,"~/javawebapp_nodeaffinity.yaml"
+-'  40  28  ~/javawebapp_nodeaffinity.yaml
+|4,39,40,28,1671255208,"~/javawebapp_nodeaffinity.yaml"
+-'  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,39,29,25,1671254997,"~/javawebapp_nodeaffinity.yaml"
+-'  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,39,29,25,1671254997,"~/javawebapp_nodeaffinity.yaml"
+-'  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,39,29,25,1671254997,"~/javawebapp_nodeaffinity.yaml"
+-'  29  25  ~/javawebapp_nodeaffinity.yaml
+|4,39,29,25,1671254941,"~/javawebapp_nodeaffinity.yaml"
+-'  32  24  ~/javawebapp_nodeaffinity.yaml
+|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
+-'  32  24  ~/javawebapp_nodeaffinity.yaml
+|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
+-'  32  24  ~/javawebapp_nodeaffinity.yaml
+|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
+-'  32  24  ~/javawebapp_nodeaffinity.yaml
+|4,39,32,24,1671254923,"~/javawebapp_nodeaffinity.yaml"
+-'  32  24  ~/javawebapp_nodeaffinity.yaml
+|4,39,32,24,1671254806,"~/javawebapp_nodeaffinity.yaml"
+-'  29  13  ~/javawebapp_nodeaffinity.yaml
+|4,39,29,13,1671254674,"~/javawebapp_nodeaffinity.yaml"
+-'  29  14  ~/javawebapp_nodeaffinity.yaml
+|4,39,29,14,1671254103,"~/javawebapp_nodeaffinity.yaml"
+-'  1  0  ~/javawebapp_nodeaffinity.yaml
+|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
+-'  1  0  ~/javawebapp_nodeaffinity.yaml
+|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
+-'  1  0  ~/javawebapp_nodeaffinity.yaml
+|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
+-'  1  0  ~/javawebapp_nodeaffinity.yaml
+|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
+-'  1  0  ~/javawebapp_nodeaffinity.yaml
+|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
+-'  1  0  ~/javawebapp_nodeaffinity.yaml
+|4,39,1,0,1671246058,"~/javawebapp_nodeaffinity.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  33  6  ~/mavenwebapp_nodeselector.yaml
+|4,39,33,6,1671198211,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
+-'  44  11  ~/mavenwebapp_nodeselector.yaml
+|4,39,44,11,1671198202,"~/mavenwebapp_nodeselector.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/javawebapp_nodeaffinity.yaml
+	*	1671255334	0
+	"	34	20
+	^	34	21
+	.	34	20
+	+	13	6
+	+	14	6
+	+	29	33
+	+	32	26
+	+	29	18
+	+	32	24
+	+	29	25
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	16
+	+	32	29
+	+	33	63
+	+	34	0
+	+	33	10
+	+	38	0
+	+	37	28
+	+	40	28
+	+	33	41
+	+	34	20
+
+> ~/mavenwebapp_nodeselector.yaml
+	*	1671198210	0
+	"	33	6
+	^	33	7
+	.	33	6
+	+	5	2
+	+	17	41
+	+	45	0
+	+	37	2
+	+	45	0
+	+	18	13
+	+	18	0
+	+	33	6
+
+> ~/mavenwebapphpa.yaml
+	*	1671197528	0
+	"	69	0
+	^	49	3
+	.	29	0
+	+	39	19
+	+	17	17
+	+	18	0
+	+	17	23
+	+	51	0
+	+	28	26
+	+	37	15
+	+	69	29
+	+	41	4
+	+	14	0
+	+	13	13
+	+	14	25
+	+	13	11
+	+	1	18
+	+	14	8
+	+	21	9
+	+	17	0
+	+	44	0
+	+	29	0
+	+	56	4
+	+	30	8
+	+	29	2
+	+	5	2
+	+	35	2
+	+	49	2
+	+	29	0
 
 > ~/springbootmongo_statefulset.yaml
 	*	1671188988	0
@@ -598,37 +672,6 @@
 	^	27	32
 	.	27	32
 	+	27	32
-
-> ~/mavenwebapphpa.yaml
-	*	1670218973	0
-	"	70	2
-	^	50	3
-	.	50	2
-	+	40	19
-	+	17	17
-	+	18	0
-	+	17	23
-	+	52	0
-	+	28	26
-	+	38	15
-	+	70	29
-	+	42	4
-	+	14	0
-	+	13	13
-	+	14	25
-	+	13	11
-	+	1	18
-	+	14	8
-	+	21	9
-	+	17	0
-	+	45	0
-	+	30	0
-	+	57	4
-	+	31	8
-	+	30	2
-	+	5	2
-	+	36	2
-	+	50	2
 
 > ~/hpadeployment.yaml
 	*	1670205691	0

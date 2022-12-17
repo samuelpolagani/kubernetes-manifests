@@ -1201,3 +1201,96 @@ kubectl get all -n test-ns
 kubectl apply -f springbootmongo_statefulset.yaml
 kubectl get all -n test-ns
 kubectl exec -it mongod-0 -n test-ns -- bash
+vim springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl exec -it mongod-0 -n test-ns -- bash
+cat springbootmongo_statefulset.yaml
+docker 
+ll
+docker
+cat springbootmongo_statefulset.yaml
+kubectl get pod -n test-ns
+kubectl exec -it mongod-0 -n test-ns -- bash
+kubectl delete all --all -n test-ns
+vim springbootmongo_statefulset.yaml 
+kubectl apply -f springbootmongo_statefulset.yaml
+kubectl get pod -n test-ns
+kubectl exec -it mongod-0 -n test-ns bash
+kubectl exec -it mongod-0 -n test-ns -- bash
+kubectl get all -n test-ns
+kubectl exec -it mongod-0 -n test-ns -- bash
+kubectl get cm
+kubectl get cm -c test-ns
+kubectl get cm -n test-ns
+kubectl describe cm springappconfig -n test-ns
+kubectl get secret -n test-ns
+kubectl describe secret springappsecret -n test-ns
+ll
+cat springbootmongo_configmap_secrets.yaml 
+vim springbootmongo_statefulset.yaml 
+kubectl apply -f springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl describe pod springmongodeployment-75c7fbb57c-mdhzm -n test-ns
+vim springbootmongo_statefulset.yaml 
+kubectl apply -f springbootmongo_statefulset.yaml 
+kubectl get all -n test-ns
+kubectl describe pod springmongodeployment-75c7fbb57c-mdhzm -n test-ns
+kubectl get all -n test-ns
+kubectl delete rs springmongodeployment-75c7fbb57c -n test-ns
+kubectl get all -n test-ns
+kubectl get ep -n test-ns
+cat springbootmongo_statefulset.yaml 
+git status
+git add .
+git commit -a -m "new data"
+git push samuelpolagani master 
+git status
+kubectl get nodes --show-labels
+kubectl get nodes
+kubectl label nodes ip-172-31-17-187 name=WorkerOne
+kubectl get nodes --show-labels
+kubectl get all -n test-ns
+kubectl delete all --all -n test-ns
+kubectl get all -n test-ns
+kubectl get nodes
+kubectl get all -n test-ns -o wide
+kubectl get nodes
+ls -ltr
+vim mavenwebapphpa.yaml 
+cp mavenwebapphpa.yaml mavenwebapp_nodeselector.yaml
+vim mavenwebapp_nodeselector.yaml
+kubectl get nodes
+kubectl get pods -n test-ns
+kubectl get nodes
+kubectl apply -f mavenwebapp_nodeselector.yaml
+vim mavenwebapp_nodeselector.yaml
+kubectl apply -f mavenwebapp_nodeselector.yaml
+kubectl apply -f mavenwebapp_nodeselector.yaml --validate=false
+kubectl get nodes --show-labels
+vim mavenwebapp_nodeselector.yaml
+kubectl apply -f mavenwebapp_nodeselector.yaml --validate=false
+kubectl get all -n test-ns
+vim mavenwebapp_nodeselector.yaml
+kubectl get pods -n test-ns -o wide
+kubectl describe pod mongodbrs-8cd4v -n test-ns
+vim mavenwebapp_nodeselector.yaml
+kubectl apply -f mavenwebapp_nodeselector.yaml --validate=false
+kubectl apply -f mavenwebapp_nodeselector.yaml
+vim mavenwebapp_nodeselector.yaml
+kubectl apply -f mavenwebapp_nodeselector.yaml
+kubectl get all -n test-ns
+cat mavenwebapp_nodeselector.yaml
+kubectl get pods -n test-ns -o wide
+kubectl get all
+kubectl get all -n test-ns
+exit
+kubectl get all -n test-ns
+exit
+ll
+git status
+git push samuelpolagani master 
+kubectl get all -n test-ns
+ls -ltr
+cp javawebappdeprollingupdate.yaml 
+cp javawebappdeprollingupdate.yaml javawebapp_nodeaffinity.yaml
+vim javawebapp_nodeaffinity.yaml
