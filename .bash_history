@@ -1333,3 +1333,342 @@ git status
 git add .
 git commit -a -m "data"
 git push samuelpolagani  master
+git push samuelpolagani master 
+kubectl get all 
+ls -ltr
+cp javawebapp_nodeaffinity.yaml javawebapp_podaffinity_preffered.yaml
+vim javawebapp_podaffinity_preffered.yaml
+kubectl get all -n test-ns
+kubectl delete all --all -n test-ns
+vim nginxpod.yaml
+kubectl apply -f nginxpod.yaml 
+kubectl get pod -n test-ns
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+vim javawebapp_podaffinity_preffered.yaml
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+vim javawebapp_podaffinity_preffered.yaml
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+vim javawebapp_podaffinity_preffered.yaml
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+kubectl get pods -n test-ns
+kubectl get pods -n test-ns -o wide
+vim javawebapp_podaffinity_preffered.yaml
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+kubectl get pods -n test-ns -o wide
+kubectl describe pod nginx -n test-ns
+ls -ltr
+vim nginxpod.yaml
+vim javawebapp_podaffinity_preffered.yaml
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+kubectl get pods -n test-ns -o wide
+kubectl apply -f nginxpod.yaml 
+kubectl get pods -n test-ns -o wide
+kubectl delete pod nginx -n test-ns
+kubectl apply -f nginxpod.yaml 
+kubectl get pods -n test-ns -o wide
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+kubectl get pods -n test-ns -o wide
+kubectl delete -f javawebapp_podaffinity_preffered.yaml
+kubectl get pods -n test-ns -o wide
+kubectl apply -f javawebapp_podaffinity_preffered.yaml
+kubectl get pods -n test-ns -o wide
+ls -ltr
+cp javawebapp_podaffinity_preffered.yaml javawebapp_podaffinity_required.yaml
+vim javawebapp_podaffinity_required.yaml
+kubectl delete -f javawebapp_podaffinity_preffered.yaml
+kubectl apply -f javawebapp_podaffinity_required.yaml
+vim javawebapp_podaffinity_required.yaml
+kubectl get all -n test-ns
+kubectl apply -f javawebapp_podaffinity_required.yaml
+kubectl get all -n test-ns
+kubectl get pods -n test-ns -o wide
+ls -ltr
+cp javawebapp_podaffinity_preffered.yaml javawebapp_podantiaffinity_preffered.yaml
+vim javawebapp_podantiaffinity_preffered.yaml
+kubectl get all -n test-ns
+kubectl delete -f javawebapp_podaffinity_required.yaml
+kubectl apply -f javawebapp_podantiaffinity_preffered.yaml
+kubectl get pods -n test-ns
+kubectl get pods -n test-ns -o wide
+ls -ltr
+cp javawebapp_podaffinity_required.yaml javawebapp_podantiaffinity_required.yaml
+vim javawebapp_podantiaffinity_required.yaml
+kubectl get pods -n test-ns -o wide
+kubectl delete -f javawebapp_podantiaffinity_preffered.yaml
+kubectl apply -f javawebapp_podantiaffinity_required.yaml
+kubectl get pods -n test-ns -o wide
+ls -ltr
+git status
+git add .
+git commit -a -m "podaffinity files"
+git 
+git status
+ls -ltr
+kubectl get nodes
+kubectl describe nodes | grep taint
+kubectl describe nodes 
+kubectl describe nodes | grep Taint
+ls -ltr
+kubectl get all -n test-ns
+vim javawebapp_podantiaffinity_required.yaml
+kubectl apply -f javawebapp_podantiaffinity_required.yaml
+kubectl get all -n test-ns
+kubectl delete -f javawebapp_podantiaffinity_required.yaml
+kubectl get all -n test-ns
+kubectl apply -f javawebapp_podantiaffinity_required.yaml
+kubectl get all -n test-ns
+kubectl describe pod javawebappdep-7b7fd49d4-mft84 -n test-ns
+kubectl get all -n test-ns
+kubectl get pods -n test-ns -o wide
+kubectl describe nodes | grep Taint
+cp javawebapp_podantiaffinity_required.yaml javawebapp_taints_tollerations.yaml
+vim javawebapp_taints_tollerations.yaml
+kubectl delete -f javawebapp_podantiaffinity_required.yaml
+kubectp apply -f javawebapp_taints_tollerations.yaml
+kubectl apply -f javawebapp_taints_tollerations.yaml
+kubectl get pods -n test-ns
+kubectl get pods -n test-ns -o wide
+ls -ltr
+cat javawebapp_taints_tollerations.yaml
+kubectl get all -n test-ns -o wide
+kubectl taint nodes ip-172-31-4-128 node=HatePods:NoSchedule
+kubectl taint nodes ip-172-31-4-128 node=HatePods:NoSchedule-
+kubectl get nodes
+kubectl taint nodes ip-172-31-17-187 node=HatePods:NoSchedule
+kubectl delete -f javawebapp_taints_tollerations.yaml
+kubectl apply -f javawebapp_taints_tollerations.yaml
+vim javawebapp_taints_tollerations.yaml
+kubectl delete -f javawebapp_taints_tollerations.yaml
+kubectl apply -f javawebapp_taints_tollerations.yaml
+vim javawebapp_taints_tollerations.yaml
+kubectl delete -f javawebapp_taints_tollerations.yaml
+kubectl apply -f javawebapp_taints_tollerations.yaml
+cat javawebapp_taints_tollerations.yaml 
+git status
+git add .
+git commit -a -m "taints & tollerations"
+git status
+kubectl describe nodes | grep "Taint"
+kubectl taint nodes node=HatePods:NoSchedule-
+kubectl get nodes
+kubectl taint nodes ip-172-31-17-187 node=HatePods:NoSchedule-
+kubectl describe nodes | grep "Taint"
+kubectl get pods -n test-ns
+kubectl get all -n test-ns
+kubectl delete pod nginx -n test-ns
+kubectl scale deploy javawebappdep --replicas=2 -n test-ns
+kubectl get all -n test-ns
+kubectl get pods -n test-ns -o wide
+kubectl get nodes
+kubectl delete all --all -n test-ns
+ls -ltr
+kubectl apply -f javawebappdeployment.yaml
+kubectl get all -n test-ns
+kubectl get pods -n test-ns -o wide
+kubectl get nodes
+kubectl cardon ip-172-31-17-187
+kubectl cordon ip-172-31-17-187
+kubectl drain ip-172-31-17-187
+kubectl drain ip-172-31-17-187 --ignore-daemonsets
+kubectl get pods -n test-ns
+kubectl get pods -n test-ns -o wide
+kubectl get nodes
+kubectl uncordon ip-172-31-17-187
+kubectl get nodes
+ls -ltr
+cat testns.yml 
+kubectl get all 
+kubectl get all -n test-ns
+kubectl get all -n test-ns
+ls -ltr
+vim nginxpod.yaml
+kubectl apply -f nginxpod.yaml
+kubectl get pods 
+kubectl exec -it nginx -- bash
+kubectl get pods -n test-ns
+kubectl exec -it javawebappdep-57f65d455b-wxp8t -- bash
+kubectl exec -it javawebappdep-57f65d455b-wxp8t -n test-ns -- bash
+exit
+ll
+cat resourcequota.yaml
+cat springbootmongo_pvc.yaml
+kubectl get all -n test-ns
+ls -ltr
+cp javawebappdeployment.yaml javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get netpol -n test-ns
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get netpol -n test-ns
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get netpol -n test-ns
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get netpol -n test-ns
+kubectl delete netpol javawebappnetworkpolicy -n test-ns
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get all -n test-ns
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl delete -f javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+vim javawebappdeployment_networkpolicy.yaml
+kubectl get netpol
+kubectl get netpol -n test-ns
+kubectl delete netpol javawebappnetworkpolicy -n test-ns
+kubectl get pods -n test-ns -o wide
+cat javawebappdeployment_networkpolicy.yaml 
+vim javanetworkpolicy.yaml
+kubectl apply -f javanetworkpolicy.yaml
+vim javanetworkpolicy.yaml
+kubectl apply -f javanetworkpolicy.yaml
+vim javanetworkpolicy.yaml
+kubectl apply -f javanetworkpolicy.yaml
+vim javanetworkpolicy.yaml
+kubectl delete -f javanetworkpolicy.yaml
+vim javanetworkpolicy.yaml
+ls -ltr
+vim javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get netpol -n test-ns
+kubectl get netpol -n test-ns -o wide
+vim javawebappdeployment_networkpolicy.yaml
+kubectl delete -f javawebappdeployment_networkpolicy.yaml
+kubectl apply -f javawebappdeployment_networkpolicy.yaml
+kubectl get all -n test-ns
+kubectl get netpol -n test-ns
+kubectl delete netpol javawebappnetworkpolicy -n test-ns
+ls -ltr
+vim javanetworkpolicy.yaml
+kubectl get all 
+vim nginxpod.yaml
+kubectl apply -f nginxpod.yaml
+vim defaultdenynetworkpolicy.yaml
+kubectl apply -f defaultdenynetworkpolicy.yaml
+kubectl get netpol 
+ls -ltr
+vim nginxpod.yaml
+kubectl get netpol
+kubectl delete netpol nginxnetworkpolicy 
+kubectl apply -f nginxpod.yaml 
+kubectl get netpol -n test-ns
+kubectl get netpol 
+kubectl describe nginxnetworkpolicy
+kubectl describe netpol nginxnetworkpolicy
+kubectl get netpol
+kubectl delete netpol nginxnetworkpolicy
+kubectl get netpol
+kubectl get ns -o wide
+kubectl get ns --show-labels
+ls -ltr
+cp nginxpod.yaml nginxnetworkpolicy.yaml
+vim nginxnetworkpolicy.yaml
+kubectl apply -f nginxnetworkpolicy.yaml
+ls -ltr
+cp defaultdenynetworkpolicy.yaml vimdenynetworkpolicy.yaml
+vim vimdenynetworkpolicy.yaml
+kubectl apply -f vimdenynetworkpolicy.yaml
+kubectl delete -f vimdenynetworkpolicy.yaml
+vim vimdenynetworkpolicy.yaml
+kubectl apply -f vimdenynetworkpolicy.yaml
+ls -ltr
+kubectl delete -f vimdenynetworkpolicy.yaml
+mv testns-denynetworkpolicy.yaml
+mv vimdenynetworkpolicy.yaml testns-denynetworkpolicy.yaml
+kubectl apply -f testns-denynetworkpolicy.yaml
+cat nginxnetworkpolicy.yaml
+vim javawebappnetworkpolicy.yaml
+kubectl apply -f javawebappnetworkpolicy.yaml
+vim javawebappnetworkpolicy.yaml
+kubectl apply -f javawebappnetworkpolicy.yaml
+kubectl show --help
+kubectl get --help
+kubectl get -A
+kubectl api-resources
+kubectl describe ns test-ns
+ifconfig 
+kubectl get pods -n test-ns
+kubectl get pods -n test-ns -o wide
+ls -ltr
+vim javawebappnetworkpolicy.yaml
+kubectl apply -f javawebappnetworkpolicy.yaml
+vim javawebappnetworkpolicy.yaml
+kubectl apply -f javawebappnetworkpolicy.yaml
+vim javawebappnetworkpolicy.yaml
+kubectl apply -f javawebappnetworkpolicy.yaml
+vim javawebappnetworkpolicy.yaml
+kubectl apply -f javawebappnetworkpolicy.yaml
+cat javawebappnetworkpolicy.yaml
+cp javawebappnetworkpolicy.yaml javawebappnetworkpolicy_podselector.yaml
+vim javawebappnetworkpolicy_podselector.yaml
+kubectl delete -f javawebappnetworkpolicy.yaml
+kubectl apply javawebappnetworkpolicy_podselector.yaml
+kubectl apply -f javawebappnetworkpolicy_podselector.yaml
+ls -ltr
+cat javawebappnetworkpolicy.yaml
+cat javawebappnetworkpolicy_podselector.yaml
+exit
+kubectl api-resources | grep network
+kubectl get pods --show-labels
+kubectl api-resources 
+kubectl get pods
+kubectl get pods --show-labels
+ll
+ls -ltr
+vim nginxpod.yaml
+kubectl get all -n test-ns
+kubectl get pods --show-labels
+kubectl get ns
+kubectl get ns --show-labels
+kubectl get pods -n test-ns --show-labels
+kubectl get pods -n --show-labels
+kubectl get pods --show-labels
+kubectl get all
+kubectl exec -it nginxservice -- bash
+kubectl exec -it nginx -- bash
+exit
+kubectl get pods -n test-ns --show-labels
+kubectl get pods --show-labels
+kubectl get ns -o wide
+kubectl get ns --show-labels
+kubectl get labels
+kubectl edit
+kubectl edit node --add-labels
+kubectl edit node --label-add
+kubectl update ns default --label-add name=default
+kubectl edit ns default --label-add name=default
+kubectl edit ns default --add-label name=default
+kubectl label ns default name=default
+kubectl get ns --show-labels
+kubectl get pods --show-labels
+ls -ltr
+cat nginxpod.yaml
+kubectl get netpol 
+kubectl delete netpol *
+kubectl get netpol 
+kubectl delete netpol default-deny-ingress nginxnetworkpolicy
+kubectl get netpol -n test-ns
+kubectl delete netpol javanetworkpolicy test-ns-deny-ingress
+kubectl delete netpol -n test-ns javanetworkpolicy test-ns-deny-ingress
+exit

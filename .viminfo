@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671287959,,"wq!"
+|2,0,1671367294,,"wq!"
+:wq1
+|2,0,1671358653,,"wq1"
 :q1
 |2,0,1671279865,,"q1"
 :se nu
@@ -35,262 +37,396 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	            topologyKey: kubernetes.io/hostname
-|3,1,1,1,1,0,1671287098,"            topologyKey: kubernetes.io/hostname"
+"1	LINE	0
+	---
+|3,0,1,1,1,0,1671363231,"---"
 "2	LINE	0
-	                - javawebapp
-|3,0,2,1,1,0,1671287097,"                - javawebapp"
+	    targetPort: 80
+|3,0,2,1,1,0,1671363229,"    targetPort: 80"
 "3	LINE	0
-	                values:
-|3,0,3,1,1,0,1671287096,"                values:"
+	  - port: 80
+|3,0,3,1,1,0,1671363229,"  - port: 80"
 "4	LINE	0
-	                operator: In
-|3,0,4,1,1,0,1671287095,"                operator: In"
+	  ports:
+|3,0,4,1,1,0,1671363228,"  ports:"
 "5	LINE	0
-	              - key: app
-|3,0,5,1,1,0,1671287094,"              - key: app"
+	  type: ClusterIP
+|3,0,5,1,1,0,1671363227,"  type: ClusterIP"
 "6	LINE	0
-	              matchExpressions:
-|3,0,6,1,1,0,1671287094,"              matchExpressions:"
+	    app: nginx
+|3,0,6,1,1,0,1671363227,"    app: nginx"
 "7	LINE	0
-	          - labelSelector:
-|3,0,7,1,1,0,1671287094,"          - labelSelector:"
+	  selector:
+|3,0,7,1,1,0,1671363227,"  selector:"
 "8	LINE	0
-	          requiredDuringSchedulingIgnoredDuringExecution:
-|3,0,8,1,1,0,1671287094,"          requiredDuringSchedulingIgnoredDuringExecution:"
+	spec:
+|3,0,8,1,1,0,1671363226,"spec:"
 "9	LINE	0
-	        podAntiAffinity:
-|3,0,9,1,1,0,1671287093,"        podAntiAffinity:"
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1671246084,"#"
+	  name: nginxservice
+|3,0,9,1,1,0,1671363226,"  name: nginxservice"
+""-	CHAR	0
+	e
+|3,1,36,0,1,0,1671367184,"e"
 
 # File marks:
-'0  46  25  ~/javawebapp_taints_tollerations.yaml
-|4,48,46,25,1671287959,"~/javawebapp_taints_tollerations.yaml"
-'1  38  46  ~/javawebapp_taints_tollerations.yaml
-|4,49,38,46,1671287828,"~/javawebapp_taints_tollerations.yaml"
-'2  38  46  ~/javawebapp_taints_tollerations.yaml
-|4,50,38,46,1671287828,"~/javawebapp_taints_tollerations.yaml"
-'3  42  25  ~/javawebapp_taints_tollerations.yaml
-|4,51,42,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
-'4  32  25  ~/javawebapp_taints_tollerations.yaml
-|4,52,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
-'5  42  25  ~/javawebapp_taints_tollerations.yaml
-|4,53,42,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
-'6  32  25  ~/javawebapp_taints_tollerations.yaml
-|4,54,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
-'7  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,55,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
-'8  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,56,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
-'9  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,57,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
+'0  16  9  ~/javawebappnetworkpolicy_podselector.yaml
+|4,48,16,9,1671367294,"~/javawebappnetworkpolicy_podselector.yaml"
+'1  19  15  ~/javawebappnetworkpolicy.yaml
+|4,49,19,15,1671366927,"~/javawebappnetworkpolicy.yaml"
+'2  16  15  ~/javawebappnetworkpolicy.yaml
+|4,50,16,15,1671366880,"~/javawebappnetworkpolicy.yaml"
+'3  16  15  ~/javawebappnetworkpolicy.yaml
+|4,51,16,15,1671366880,"~/javawebappnetworkpolicy.yaml"
+'4  9  5  ~/javawebappnetworkpolicy.yaml
+|4,52,9,5,1671366325,"~/javawebappnetworkpolicy.yaml"
+'5  9  5  ~/javawebappnetworkpolicy.yaml
+|4,53,9,5,1671366325,"~/javawebappnetworkpolicy.yaml"
+'6  9  5  ~/javawebappnetworkpolicy.yaml
+|4,54,9,5,1671366325,"~/javawebappnetworkpolicy.yaml"
+'7  9  5  ~/javawebappnetworkpolicy.yaml
+|4,55,9,5,1671366325,"~/javawebappnetworkpolicy.yaml"
+'8  16  39  ~/javawebappnetworkpolicy.yaml
+|4,56,16,39,1671366288,"~/javawebappnetworkpolicy.yaml"
+'9  15  23  ~/javawebappnetworkpolicy.yaml
+|4,57,15,23,1671366288,"~/javawebappnetworkpolicy.yaml"
 
 # Jumplist (newest first):
--'  46  25  ~/javawebapp_taints_tollerations.yaml
-|4,39,46,25,1671287959,"~/javawebapp_taints_tollerations.yaml"
--'  38  46  ~/javawebapp_taints_tollerations.yaml
-|4,39,38,46,1671287881,"~/javawebapp_taints_tollerations.yaml"
--'  38  46  ~/javawebapp_taints_tollerations.yaml
-|4,39,38,46,1671287828,"~/javawebapp_taints_tollerations.yaml"
--'  42  25  ~/javawebapp_taints_tollerations.yaml
-|4,39,42,25,1671287732,"~/javawebapp_taints_tollerations.yaml"
--'  42  25  ~/javawebapp_taints_tollerations.yaml
-|4,39,42,25,1671287732,"~/javawebapp_taints_tollerations.yaml"
--'  32  25  ~/javawebapp_taints_tollerations.yaml
-|4,39,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
--'  32  25  ~/javawebapp_taints_tollerations.yaml
-|4,39,32,25,1671287247,"~/javawebapp_taints_tollerations.yaml"
--'  1  0  ~/javawebapp_taints_tollerations.yaml
-|4,39,1,0,1671287053,"~/javawebapp_taints_tollerations.yaml"
--'  1  0  ~/javawebapp_taints_tollerations.yaml
-|4,39,1,0,1671287053,"~/javawebapp_taints_tollerations.yaml"
--'  1  0  ~/javawebapp_taints_tollerations.yaml
-|4,39,1,0,1671287053,"~/javawebapp_taints_tollerations.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  8  12  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,8,12,1671286854,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286846,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  32  27  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,32,27,1671286844,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671286786,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  25  14  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,25,14,1671280178,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  1  0  ~/javawebapp_podantiaffinity_required.yaml
-|4,39,1,0,1671280165,"~/javawebapp_podantiaffinity_required.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
--'  35  14  ~/javawebapp_podantiaffinity_preffered.yaml
-|4,39,35,14,1671280076,"~/javawebapp_podantiaffinity_preffered.yaml"
+-'  16  9  ~/javawebappnetworkpolicy_podselector.yaml
+|4,39,16,9,1671367294,"~/javawebappnetworkpolicy_podselector.yaml"
+-'  1  0  ~/javawebappnetworkpolicy_podselector.yaml
+|4,39,1,0,1671367169,"~/javawebappnetworkpolicy_podselector.yaml"
+-'  19  15  ~/javawebappnetworkpolicy.yaml
+|4,39,19,15,1671366927,"~/javawebappnetworkpolicy.yaml"
+-'  19  15  ~/javawebappnetworkpolicy.yaml
+|4,39,19,15,1671366927,"~/javawebappnetworkpolicy.yaml"
+-'  16  15  ~/javawebappnetworkpolicy.yaml
+|4,39,16,15,1671366916,"~/javawebappnetworkpolicy.yaml"
+-'  16  15  ~/javawebappnetworkpolicy.yaml
+|4,39,16,15,1671366916,"~/javawebappnetworkpolicy.yaml"
+-'  16  15  ~/javawebappnetworkpolicy.yaml
+|4,39,16,15,1671366880,"~/javawebappnetworkpolicy.yaml"
+-'  16  15  ~/javawebappnetworkpolicy.yaml
+|4,39,16,15,1671366880,"~/javawebappnetworkpolicy.yaml"
+-'  9  5  ~/javawebappnetworkpolicy.yaml
+|4,39,9,5,1671366396,"~/javawebappnetworkpolicy.yaml"
+-'  9  5  ~/javawebappnetworkpolicy.yaml
+|4,39,9,5,1671366396,"~/javawebappnetworkpolicy.yaml"
+-'  9  5  ~/javawebappnetworkpolicy.yaml
+|4,39,9,5,1671366396,"~/javawebappnetworkpolicy.yaml"
+-'  9  5  ~/javawebappnetworkpolicy.yaml
+|4,39,9,5,1671366396,"~/javawebappnetworkpolicy.yaml"
+-'  9  5  ~/javawebappnetworkpolicy.yaml
+|4,39,9,5,1671366325,"~/javawebappnetworkpolicy.yaml"
+-'  9  5  ~/javawebappnetworkpolicy.yaml
+|4,39,9,5,1671366325,"~/javawebappnetworkpolicy.yaml"
+-'  15  23  ~/javawebappnetworkpolicy.yaml
+|4,39,15,23,1671366314,"~/javawebappnetworkpolicy.yaml"
+-'  15  23  ~/javawebappnetworkpolicy.yaml
+|4,39,15,23,1671366314,"~/javawebappnetworkpolicy.yaml"
+-'  15  23  ~/javawebappnetworkpolicy.yaml
+|4,39,15,23,1671366314,"~/javawebappnetworkpolicy.yaml"
+-'  15  23  ~/javawebappnetworkpolicy.yaml
+|4,39,15,23,1671366314,"~/javawebappnetworkpolicy.yaml"
+-'  15  23  ~/javawebappnetworkpolicy.yaml
+|4,39,15,23,1671366288,"~/javawebappnetworkpolicy.yaml"
+-'  15  23  ~/javawebappnetworkpolicy.yaml
+|4,39,15,23,1671366288,"~/javawebappnetworkpolicy.yaml"
+-'  18  13  ~/javawebappnetworkpolicy.yaml
+|4,39,18,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  19  13  ~/javawebappnetworkpolicy.yaml
+|4,39,19,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  18  13  ~/javawebappnetworkpolicy.yaml
+|4,39,18,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  18  13  ~/javawebappnetworkpolicy.yaml
+|4,39,18,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  18  13  ~/javawebappnetworkpolicy.yaml
+|4,39,18,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  19  13  ~/javawebappnetworkpolicy.yaml
+|4,39,19,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  18  13  ~/javawebappnetworkpolicy.yaml
+|4,39,18,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  18  13  ~/javawebappnetworkpolicy.yaml
+|4,39,18,13,1671366042,"~/javawebappnetworkpolicy.yaml"
+-'  20  13  ~/javawebappnetworkpolicy.yaml
+|4,39,20,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  20  13  ~/javawebappnetworkpolicy.yaml
+|4,39,20,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  19  13  ~/javawebappnetworkpolicy.yaml
+|4,39,19,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  19  13  ~/javawebappnetworkpolicy.yaml
+|4,39,19,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  20  13  ~/javawebappnetworkpolicy.yaml
+|4,39,20,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  20  13  ~/javawebappnetworkpolicy.yaml
+|4,39,20,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  19  13  ~/javawebappnetworkpolicy.yaml
+|4,39,19,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  19  13  ~/javawebappnetworkpolicy.yaml
+|4,39,19,13,1671363964,"~/javawebappnetworkpolicy.yaml"
+-'  19  15  ~/javawebappnetworkpolicy.yaml
+|4,39,19,15,1671363929,"~/javawebappnetworkpolicy.yaml"
+-'  19  15  ~/javawebappnetworkpolicy.yaml
+|4,39,19,15,1671363929,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  1  0  ~/javawebappnetworkpolicy.yaml
+|4,39,1,0,1671363761,"~/javawebappnetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
+-'  4  14  ~/vimdenynetworkpolicy.yaml
+|4,39,4,14,1671363638,"~/vimdenynetworkpolicy.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/javawebappnetworkpolicy_podselector.yaml
+	*	1671367293	0
+	"	16	9
+	^	16	10
+	.	16	10
+	+	14	7
+	+	15	0
+	+	14	8
+	+	16	10
+
+> ~/javawebappnetworkpolicy.yaml
+	*	1671366925	0
+	"	19	15
+	^	19	16
+	.	19	15
+	+	20	0
+	+	4	11
+	+	5	19
+	+	9	6
+	+	14	16
+	+	16	50
+	+	19	13
+	+	7	0
+	+	8	0
+	+	9	24
+	+	9	19
+	+	7	2
+	+	8	4
+	+	9	19
+	+	10	0
+	+	14	12
+	+	16	39
+	+	17	0
+	+	9	5
+	+	14	24
+	+	16	15
+	+	19	15
+
+> ~/vimdenynetworkpolicy.yaml
+	*	1671363636	0
+	"	4	14
+	^	4	15
+	.	4	14
+	+	5	19
+	+	4	14
+
+> ~/nginxnetworkpolicy.yaml
+	*	1671363351	0
+	"	16	9
+	^	16	10
+	.	16	10
+	+	1	0
+	+	11	2
+	+	13	2
+	+	14	2
+	+	15	2
+	+	16	2
+	+	17	2
+	+	18	2
+	+	19	2
+	+	14	14
+	+	16	10
+
+> ~/nginxpod.yaml
+	*	1671360374	0
+	"	42	10
+	.	45	0
+	+	12	22
+	+	6	13
+	+	24	17
+	+	5	0
+	+	21	16
+	+	45	19
+	+	29	12
+	+	34	15
+	+	37	0
+	+	39	0
+	+	41	14
+	+	44	17
+	+	45	0
+
+> ~/defaultdenynetworkpolicy.yaml
+	*	1671360309	0
+	"	8	10
+	^	8	11
+	.	8	10
+	+	8	10
+
+> ~/javanetworkpolicy.yaml
+	*	1671358435	0
+	"	18	20
+	^	18	21
+	.	18	20
+	+	19	16
+	+	14	6
+	+	17	6
+	+	16	31
+	+	15	10
+	+	16	12
+	+	18	20
+
+> ~/javawebappdeployment_networkpolicy.yaml
+	*	1671358060	0
+	"	56	17
+	^	56	18
+	.	56	17
+	+	40	9
+	+	39	18
+	+	47	14
+	+	56	17
+	+	43	0
+	+	42	19
+	+	38	32
+	+	48	10
+	+	49	8
+	+	55	22
+	+	56	19
+	+	31	16
+	+	56	17
+	+	51	6
+	+	52	6
+	+	53	6
+	+	54	0
+	+	55	0
+	+	56	0
+	+	54	12
+	+	55	12
+	+	56	12
+	+	54	6
+	+	55	6
+	+	56	17
+	+	48	3
+	+	56	17
 
 > ~/javawebapp_taints_tollerations.yaml
 	*	1671287956	0
@@ -384,14 +520,6 @@
 	+	29	26
 	+	35	48
 	+	31	25
-
-> ~/nginxpod.yaml
-	*	1671279448	0
-	"	7	13
-	^	7	14
-	.	7	13
-	+	13	22
-	+	7	13
 
 > ~/mavenwebapp_nodeselector.yaml
 	*	1671198210	0
